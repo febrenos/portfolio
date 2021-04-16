@@ -4,7 +4,7 @@
 
 See professional information about me, I will be open to questions, proposal and feedbacks!
 
-website developed in HTML5, CSS3, JavaScript
+website developed in HTML5, CSS3, JavaScript.
 
 # Particles
 The logical animation particles generate radom
@@ -14,4 +14,4 @@ was ready created but, custumized by me!
 # Animations
 This aplication have white-mode with local storage,
 
-responsive menu, buttons animations, graphic animate, skroll animation, typing animation
+responsive menu, buttons animations, graphic animate, skroll animation, typing animation.
