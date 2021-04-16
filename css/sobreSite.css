@@ -1,0 +1,76 @@
+h3{
+    margin-top: 20px;
+}
+/* typing */
+.line{
+    border-right: 2px solid var(--txt);
+    color: var(--txt);
+    /* font-family: 'Courier New', Courier, monospace; */
+    /* display: flex;
+    text-align: center; */
+    font-size: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.txt{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro';
+    margin: -370px 0 0 0;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.typing-animation{
+    animation: blinkCursor 500ms steps(40) infinite normal,
+                typing .7s steps(40) .7s normal both;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 180px;
+    }
+}
+@keyframes blinkCursor{
+    form{
+        border-right-color: var(--txt);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
+
+.align{
+    justify-content: center;
+    flex-direction: column;
+}
+.infosite{
+    background: var(--bg-txt);
+    color: var(--txt);
+    border-radius: 20px;
+    opacity: .8;
+    padding: 3% 10px;
+    text-align: center;
+    margin: 300px 0 50px 0;
+}
+.infosite p{
+    margin-top: 10px;
+    padding: 0 10px 0 10px;
+}
+.design{
+    text-align: center;
+}
+.iconbox img{
+    margin: 20px 5px 0 5px;
+    width: 65px;
+    justify-content: space-between 20px;
+    align-items: baseline;
+    border-radius: 10px;
+}
+.iconboxc img{
+    width: 50px;
+    margin: 20px 12px 50px 12px;
+    border-radius: 50px;
+}
