@@ -39,6 +39,7 @@ function alerta(){
     alert("I am a committed professional, I always seek results!");
     alert("Open to proposals and opportunities.");
 }
+
 //links redirect new window
 function softskill(){
     window.open('https://www.16personalities.com/br/teste-de-personalidade');
@@ -58,19 +59,33 @@ function project4(){
 function project5(){
     window.open('https://github.com/felipesugisawa/2s-2019-t1-role_top');
 }
-//links icons
-function linkIn() {
-    // window.setTimeout(2000);
-    window.open('https://www.linkedin.com/in/felipe-sugisawa-3aa5b217a/');
+
+//links buttons (execute button after 0.8s)
+// setTimeout(function, 800);
+function curriculum (){
+    setTimeout(function(){
+        window.open('./pdf/CV Felipe Sugisawa Altran En.pdf');
+    }, 800);
 }
-function linkTwt() {
-    window.open('https://twitter.com/lipecks_');
+function linkIn(){
+    setTimeout(function(){
+        window.open('https://www.linkedin.com/in/felipe-sugisawa-3aa5b217a/');
+    }, 800);
 }
-function linkInsta() {
-    window.open('https://www.instagram.com/lipecks_/');
+function linkTwt(){
+    setTimeout(function(){
+        window.open('https://twitter.com/lipecks_');
+    }, 800);
 }
-function linkGit() {
-    window.open('https://github.com/felipesugisawa');
+function linkInsta(){
+    setTimeout(function(){
+        window.open('https://www.instagram.com/lipecks_/');
+    }, 800);
+}
+function linkGit(){
+    setTimeout(function(){
+        window.open('https://github.com/felipesugisawa');
+    }, 800);
 }
 
     //skroll
