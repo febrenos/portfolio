@@ -1,0 +1,209 @@
+<!-- Copyright © 2021 Lipecks. All rights reserved -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./img/logo.png" rel="icon" type="image/x-icon" />
+    <!-- icons menu -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- style css-->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Portifolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+    </header>
+    <!-- Particles -->
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="js/particles.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    <!-- Particles -->
+    <nav id="menu">
+            <a class="invisible" onclick="fecharMenu()">&#9776;</a>
+            <!--menu icons-->
+            <div class="home">
+                <a href="home.html">
+                    <i class='bx bx-grid-alt nav__icon'></i>
+                    <span class="home">Home</span>
+                </a>
+            </div>
+
+            <div class="sobresite">
+                <a href="sobreSite.html">
+                    <i class='bx bxs-terminal nav__icon'></i>
+                    <!-- <i class='bx bx-code-block nav__icon'></i> -->
+                    <span class="sobresite">About site</span>
+                </a>
+            </div>
+
+            <div class="contato">
+                <a href="contato.html">
+                    <i class='bx bx-message-rounded nav__icon'></i>
+                    <span class="contato">Contact</span>
+                </a>
+            </div>
+
+            <label class="theme-switch" for="checkbox">
+                <a>
+                    <input id="checkbox" type="checkbox"></input>
+                    <span class="whitemode">White-mode</span>
+                </a>
+            </label>
+    </nav>
+
+    <main id="content">
+        <div class="align">
+            <div class="box">
+                <div class="img">
+                    <img src="img/felipe.png" alt="">
+                </div>
+                <h3>Felipe Sugisawa</h3>
+                <div class="pbox">
+                    <p>Full Stack Developer</p>
+                    <p>São Paulo, Penha</p>
+                </div>
+                <div class="iconbox">
+                        <img class="icon2" src="img/html.png">
+                        <img class="icon1" src="img/css.png">
+                        <img class="icon3" src="img/js.png">
+                        <img class="icon4" src="img/csharp.png">
+                        <img class="icon4" src="img/db.png">
+                </div>
+
+                <div class="mais">
+                    <a href="#" onclick="alerta()">+ about</a>
+                </div>
+                <div class="button">
+                    <a href="./pdf/CV Felipe Sugisawa Altran En.pdf">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Curriculum
+                    </a>
+                </div>
+            </div>
+        </div>
+            <div class="h2formacao">
+                <h2>Formation</h2>
+            </div>
+            <div class="formacao">
+                <div class="imgformacao">
+                    <img src="img/senaibg.png">
+                    <img src="img/rocketseatbg.png">
+                </div>
+            </div>
+            <div class="softskills">
+                <h2>Soft Skills</h2>
+            </div>
+            <div class="imgprotagonist">
+                <img src="./img/protagonist.png" style="width: 200px;">
+            </div>
+            <div class="titulog">
+                <h1>Protagonist Personality</h1>
+                <h1>ENFJ-A</h1>
+        </div>
+            <div class="boxg">
+                <section class="lineg">
+                    <div class="subtitleg">
+                        <div class="alignsub">Outgoing</div><!--extrovertido-->
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" data-anime="1" style="width: 40.5%;" title="19% introvertido"><h6>81%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">Intuitive</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" data-anime="2" style="width: 27.5%;" title="45% observador"><h6>55%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">feling</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" data-anime="3" style="width: 28%;" title="44% extrovertido"><h6>56%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">Judge</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" data-anime="4" style="width: 36%;" title="28% explorador"><h6>72%</h6></div>
+                    </div>
+                    <div class="subtitleg">
+                        <div class="alignsub">Assertive</div>
+                    </div>
+                    <div class="valueg">
+                        <div class="columng" data-anime="5" style="width: 28%;" title="44% Cautuloso"><h6>72%</h6></div>
+                    </div>
+                </section>
+            </div>
+            <div class="infog">
+                    <h4>Sociable</h4>
+                    <h1>87%</h1>
+                    <a href="#" onclick="softskill()">Test your personality</a>
+            </div>
+                <h2>Developed Projects</h2>
+            <div class="projects">
+                <div class="project1">
+                    <a href="#" onclick="project1()"><img src="./img/inovaBranco.png"></a>
+                </div>
+                <h4>Back-end: SQL e C# | Front-end: react typescript, bootstrap</h4>
+                <p>O <a href="https://www.sp.senai.br/">SENAI</a> has a hiring process
+                    however, this form is not as effective. Innovates promises to deliver to users of
+                    platform an innovative experience increasing the ease of employment of
+                    automated way.</p>
+            </div>
+            <div class="projects">
+                <div class="project2">
+                    <a href="#" onclick="project2()"><img src="./img/proffy.png"></a>
+                </div>
+                <h4>Back-end: Js Db | Front-end: react typescript</h4>
+                <p>A <a href="https://rocketseat.com.br/">Rocket Seat</a> together with students
+                    developers including myself created because of the difficult situation that we're
+                    living Proffy was created, which aims to facilitate the learning of all students of
+                    in a practical and organized way, having registrations, organizing classes with
+                    teachers and students.</p>
+            </div>
+            <div class="projects">
+                <div class="project3">
+                    <a href="#" onclick="project3()"><img src="./img/filmescolection.png"></a>
+                </div>
+                <h4>Back-end: SQL C# | Front-end: react typescript</h4>
+                <p>O <a href="https://www.sp.senai.br/">SENAI</a> analyzed a film broker
+                    in order to facilitate the access of customers, and created the film colection
+                    managed by the shopkeeper being the administrator we created the Filmes Collection.</p>
+            </div>
+            <div class="projects">
+                <div class="project4">
+                    <a href="#" onclick="project4()"><img src="./img/roletop.png"></a>
+                </div>
+                <h4>Back-end: C# .Net MVC | Front-end: html css</h4>
+                <p>A company wished to organize events but attendants were not enough, in search of greater
+                    practicality I developed the site that solved the problem with registration,
+                    login, dashboard is waiting for what? mark your ride!</p>
+            </div>
+            <div class="projects">
+                <div class="project5">
+                    <a href="#" onclick="project5()"><img src="./img/mcbonalds.png"></a>
+                </div>
+                <h4>Back-end: C# .Net MVC | Front-end: html css</h4>
+                <p>Arose from the idea of automating the sale of hamburgers and desserts in a restaurant, the website
+                    was built together with SENAI professors, has login, registration,
+                    dashboard, purchase mechanism.</p>
+            </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright © 2021 Lipecks. All rights reserved.</p>
+            <p>felipesugisawa1@gmail.com | 55 11 96865-1661</p>
+            <p>SP/Penha – Brasil</p>
+        </div>
+    </footer>
+    <!-- action menu -->
+    <script type="text/javascript" src="js/menu.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.6/lottie_svg.min.js"></script>
+</body>
+</html>
