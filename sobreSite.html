@@ -1,0 +1,102 @@
+<!-- Copyright © 2021 Lipecks. All rights reserved -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./img/logo.png" rel="icon" type="image/x-icon" />
+    <!-- icons menu -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- style css-->
+    <link rel="stylesheet" href="css/sobreSite.css">
+    <link rel="stylesheet" href="css/global.css">
+    <title>Portifolio</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="btn-abrir" onclick="abrirMenu()">&#9776;</a>
+    </header>
+    <!-- Particles -->
+        <div id="particles-js"></div>
+        <script type="text/javascript" src="js/particles.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+    <!-- Particles -->
+    <nav id="menu">
+            <a class="invisible" onclick="fecharMenu()">&#9776;</a>
+            <!--menu icons-->
+            <div class="home">
+                <a href="home.html">
+                    <i class='bx bx-grid-alt nav__icon'></i>
+                    <span class="home">Home</span>
+                </a>
+            </div>
+
+            <div class="sobresite">
+                <a href="sobreSite.html">
+                    <i class='bx bxs-terminal nav__icon'></i>
+                    <!-- <i class='bx bx-code-block nav__icon'></i> -->
+                    <span class="sobresite">About site</span>
+                </a>
+            </div>
+
+            <div class="contato">
+                <a href="contato.html">
+                    <i class='bx bx-message-rounded nav__icon'></i>
+                    <span class="contato">Contact</span>
+                </a>
+            </div>
+            
+            <label class="theme-switch" for="checkbox">
+                <a>
+                    <input id="checkbox" type="checkbox"></input>
+                    <span class="whitemode">White-mode</span>
+                </a>
+            </label>
+    </nav>
+
+    <main id="content">
+        <div class="txt">
+            <p class="line typing-animation"> Hello, see site information!</p>
+        </div>
+        <div class="align">
+            <div class="infosite">
+                <h1>Site Info</h1>
+                <p>Objective to present information relevant to the developer,
+                    to improve my skills by deepening my knowledge</p>
+            </div>
+            <div class="design">
+                <h2>Design</h2>
+                <h3>Technology</h3>
+                    <div class="iconbox">
+                        <img src="img/html.png" alt="">
+                        <img src="img/css.png" alt="">
+                        <img src="img/js.png" alt="">
+                    </div>
+                <h3>Colors</h3>
+                    <div class="iconbox">
+                        <div class="iconboxc">
+                            <img src="img/fff.png"    title="Pure white">
+                            <img src="img/d6b5f5.png" title="white lilas">
+                            <img src="img/8B898F.png" title="Grey">
+                            <img src="img/6E16E2.png" title="Light purple">
+                            <img src="img/260057.png" title="Purple">
+                            <img src="img/191622.png" title="Dark purple">
+                            <img src="img/0e0b13.png" title="complex purple">
+                            <img src="img/0f0f0f.png" title="Simple Dark">
+                            <img src="img/000.png"    title="Dark">
+                            <img src="img/700000.png" title="Vine">
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <p>Copyright © 2021 Lipecks. All rights reserved.</p>
+            <p>felipesugisawa1@gmail.com | 55 11 96865-1661</p>
+            <p>SP/Penha – Brasil</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/menu.js"></script>
+</body>
+</html>
