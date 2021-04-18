@@ -51,6 +51,7 @@
 }
 /* neon button */
 .button a{
+    cursor: pointer;
     position: relative;
     display: inline-block;
     padding: 10px 15px;
