@@ -146,18 +146,13 @@ function linkGit(){
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
 
-        if (currentTheme === 'dark') {
-            toggleSwitch.checked = true;
-        }
-    }  
-
-    if (currentTheme === 'white') {
-            toggleSwitch.checked = true;
+        if (currentTheme === 'white') {
+            toggleSwitch.checked = false;
         }
     }  
 
     function switchTheme(e) {
-        if (e.target.checked) {
+        if (!e.target.checked) {
             document.documentElement.setAttribute('data-theme', 'white');
             localStorage.setItem('data-theme', 'white');
         } else{
