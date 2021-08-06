@@ -151,13 +151,18 @@ function linkGit(){
         }
     }  
 
+    if (currentTheme === 'white') {
+            toggleSwitch.checked = true;
+        }
+    }  
+
     function switchTheme(e) {
         if (e.target.checked) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            localStorage.setItem('data-theme', 'dark');
-        } else{
             document.documentElement.setAttribute('data-theme', 'white');
-            localStorage.setItem('data-theme', 'white');  
+            localStorage.setItem('data-theme', 'white');
+        } else{
+            document.documentElement.setAttribute('data-theme', 'dark');
+            localStorage.setItem('data-theme', 'dark');  
         }
     } 
 
