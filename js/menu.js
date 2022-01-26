@@ -147,7 +147,7 @@ function linkGit(){
         document.documentElement.setAttribute('data-theme', currentTheme);
 
         if (currentTheme === 'white') {
-            toggleSwitch.checked = false;
+            toggleSwitch.checked = true;
         }
     }  
 
