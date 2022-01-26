@@ -146,7 +146,7 @@ function linkGit(){
     if (currentTheme) {
         document.documentElement.setAttribute('data-theme', currentTheme);
 
-        if (currentTheme === 'white') {
+        if (currentTheme === 'dark') {
             toggleSwitch.checked = true;
         }
     }  
@@ -161,4 +161,4 @@ function linkGit(){
         }
     } 
 
-    toggleSwitch.addEventListener('change', switchTheme, true);
+    toggleSwitch.addEventListener('change', switchTheme, false);
