@@ -74,12 +74,12 @@ function linkIn(){
 }
 function linkTwt(){
     setTimeout(function(){
-        window.open('https://twitter.com/lipecks_');
+        window.open('https://twitter.com/lipecke_');
     }, 800);
 }
 function linkInsta(){
     setTimeout(function(){
-        window.open('https://www.instagram.com/lipecks_/');
+        window.open('https://www.instagram.com/lipecke/');
     }, 800);
 }
 function linkGit(){
