@@ -69,7 +69,7 @@ function curriculum (){
 }
 function linkIn(){
     setTimeout(function(){
-        window.open('https://linkedin.com/in/felipe-sug-3aa5b217a/');
+        window.open('https://www.linkedin.com/in/felipe-breno-3aa5b217a/');
     }, 800);
 }
 function linkTwt(){
