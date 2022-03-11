@@ -69,7 +69,7 @@ function curriculum (){
 }
 function linkIn(){
     setTimeout(function(){
-        window.open('https://www.linkedin.com/in/felipe-sugisawa-3aa5b217a/');
+        window.open('https://linkedin.com/in/felipe-sug-3aa5b217a/');
     }, 800);
 }
 function linkTwt(){
@@ -79,7 +79,7 @@ function linkTwt(){
 }
 function linkInsta(){
     setTimeout(function(){
-        window.open('https://www.instagram.com/lipecke/');
+        window.open('https://instagram.com/lipecke/');
     }, 800);
 }
 function linkGit(){
