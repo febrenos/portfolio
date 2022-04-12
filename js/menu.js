@@ -64,7 +64,7 @@ function project5(){
 // setTimeout(function, 800);
 function curriculum (){
     setTimeout(function(){
-        window.open('./pdf/CV Felipe Sugisawa Altran En.pdf');
+        window.open('./pdf/CV Felipe S En.pdf');
     }, 800);
 }
 function linkIn(){
@@ -73,18 +73,18 @@ function linkIn(){
     }, 800);
 }
 function linkTwt(){
-    setTimeout(function(){
-        window.open('https://twitter.com/lipecke_');
-    }, 800);
+    // setTimeout(function(){
+    //     window.open('');
+    // }, 800);
 }
 function linkInsta(){
-    setTimeout(function(){
-        window.open('https://instagram.com/lipecke/');
-    }, 800);
+    // setTimeout(function(){
+    //     window.open('');
+    // }, 800);
 }
 function linkGit(){
     setTimeout(function(){
-        window.open('https://github.com/felipesugisawa');
+        window.open('https://github.com/febreno');
     }, 800);
 }
 
@@ -148,6 +148,9 @@ function linkGit(){
 
         if (currentTheme === 'dark') {
             toggleSwitch.checked = true;
+        }
+        if (currentTheme === 'white') {
+            toggleSwitch.checked = false;
         }
     }  
 
