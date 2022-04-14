@@ -87,6 +87,11 @@ function linkGit(){
         window.open('https://github.com/febreno');
     }, 800);
 }
+function linkWhats(){
+    setTimeout(function(){
+        window.open('https://api.whatsapp.com/send?phone=5511968651661');
+    }, 800);
+}
 
     //skroll
     const debounce = function(func, wait, immediate) {

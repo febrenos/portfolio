@@ -167,6 +167,10 @@ a span:nth-child(4){
     width: 150px;
     filter: grayscale(100%) saturate(100%) contrast(0%) brightness(100%);
 }
+.formacao img:hover{
+    cursor: pointer;
+    filter: none;
+}
 .softskills{
     margin: 80px 0 20px 0;
 }

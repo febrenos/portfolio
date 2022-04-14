@@ -12,10 +12,11 @@
     --linkslineb: #260057;/*links line color buton*/
 
     /*link icons*/
-    --icon1: #0e76a8;
-    --icon2: #1DA1F2;
-    --icon3: #E1306C;
-    --icon4: #000;
+    --linkedin: #0e76a8;
+    --twitter: #1DA1F2;
+    --instagram: #E1306C;
+    --github: #000;
+    --whatsapp: #2fe063;
 }
 [data-theme="white"]{ /*.aparenciab:root*/
     --bg:         #c3c6e0;/*background Web site*/

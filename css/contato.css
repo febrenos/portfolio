@@ -86,16 +86,19 @@
 }
     /* background */
 .wrapper .button:nth-child(1):hover .icon{
-    background: var(--icon1);
+    background: var(--linkedin);
 }
+/* .wrapper .button:nth-child(2):hover .icon{
+    background: var(--twitter);
+} */
 .wrapper .button:nth-child(2):hover .icon{
-    background: var(--icon2);
+    background: var(--instagram);
 }
 .wrapper .button:nth-child(3):hover .icon{
-    background: var(--icon3);
+    background: var(--github);
 }
 .wrapper .button:nth-child(4):hover .icon{
-    background: var(--icon4);
+    background: var(--whatsapp);
 }
 .wrapper .button .icon i{
     font-size: 25px;
@@ -114,17 +117,21 @@
 }
 /* letter */
 .wrapper .button:nth-child(1) span{
-    color: var(--icon1);
+    color: var(--linkedin);
 }
+/* .wrapper .button:nth-child(2) span{
+    color: var(--twitter);
+} */
 .wrapper .button:nth-child(2) span{
-    color: var(--icon2);
+    color: var(--instagram);
 }
 .wrapper .button:nth-child(3) span{
-    color: var(--icon3);
+    color: var(--github);
 }
 .wrapper .button:nth-child(4) span{
-    color: var(--icon4);
+    color: var(--whatsapp);
 }
+
 
 @media screen and (max-width: 950px){
     .wrapper .button{
