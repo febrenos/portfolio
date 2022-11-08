@@ -163,7 +163,7 @@ a span:nth-child(4){
 
 .formacao img{
     justify-content: center;
-    margin: 0 70px 0 70px;
+    margin: 0 50px 0 50px;
     width: 150px;
     filter: grayscale(100%) saturate(100%) contrast(0%) brightness(100%);
 }
