@@ -9,8 +9,8 @@
     --solidp:     #a0a0a0;/*color txt inside solid*/
     --links:      #f3f1f1;/*links 'a', 'btn'*/
     --linksh:     #fff;/*links 'a' hover*/
-    --linksline:  #6E16E2;/*links line color*/
-    --linkslineb: #260057;/*links line color buton*/
+    --linksline:  #3f51b5;/*links line color*/
+    --linkslineb: #3f51b5;/*links line color buton*/
 
     /*link icons*/
     --linkedin: #0e76a8;
