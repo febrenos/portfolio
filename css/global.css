@@ -1,13 +1,14 @@
 :root{
-    --bg:         #0e0b13;/*background Web site*/
-    --bg-txt:     #191622;/*background in txt*/
-    --txt:        #8B898F;/*all txt*/
-    --menu:       #0F0F0F;/*side bar hover*/
+    
+    --bg:         #c3c6e0;/*background Web site*/
+    --bg-txt:     #8B898F;/*background in txt*/
+    --txt:        #191622;/*all txt*/
+    --menu:       #2a2830;/*side bar hover*/
     --menu-bottom:#700000;/*border down menu*/
-    --solid:      #000;/*color solid*/
+    --solid:      #191622;/*color solid*/
     --solidp:     #a0a0a0;/*color txt inside solid*/
-    --links:      #fff;/*links 'a', 'btn'*/
-    --linksh:     #D1B5F5;/*links 'a' hover*/
+    --links:      #f3f1f1;/*links 'a', 'btn'*/
+    --linksh:     #fff;/*links 'a' hover*/
     --linksline:  #6E16E2;/*links line color*/
     --linkslineb: #260057;/*links line color buton*/
 
@@ -18,15 +19,15 @@
     --github: #000;
     --whatsapp: #2fe063;
 }
-[data-theme="white"]{ /*.aparenciab:root*/
-    --bg:         #c3c6e0;/*background Web site*/
-    --bg-txt:     #8B898F;/*background in txt*/
-    --txt:        #191622;/*all txt*/
-    --menu:       #2a2830;/*side bar hover*/
-    --solid:      #191622;/*color solid*/
+[data-theme="dark"]{ /*.aparenciab:root*/
+    --bg:         #0e0b13;/*background Web site*/
+    --bg-txt:     #191622;/*background in txt*/
+    --txt:        #8B898F;/*all txt*/
+    --menu:       #0F0F0F;/*side bar hover*/
+    --solid:      #000;/*color solid*/
     --solidp:     #a0a0a0;/*color txt inside solid*/
-    --links:      #f3f1f1;/*links 'a', 'btn'*/
-    --linksh:     #fff;/*links 'a' hover*/
+    --links:      #fff;/*links 'a', 'btn'*/
+    --linksh:     #D1B5F5;/*links 'a' hover*/
 }
 *{
     font-family: Arial, Helvetica, sans-serif;
